@@ -9,7 +9,7 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.x installed on your system
 - Tesseract-OCR installed on your system. You can download it from [here](https://github.com/UB-Mannheim/tesseract/wiki) for Window.
 
-## Installation
+## Usage
 
 To set up the project, follow these steps:
 
@@ -28,15 +28,10 @@ To set up the project, follow these steps:
     ```python
     pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     ```
-
-## Usage
-
-To detect the positions of words in an image, follow these steps:
-
-The script will display the image with bounding boxes drawn around each detected word and print the positions of the detected words in the console.
-
-
-The displayed image will have green bounding boxes around each detected word.
+4. Run python script:
+    ```python
+    python words_detection.py
+    ```
 
 ## License
 
